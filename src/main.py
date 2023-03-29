@@ -4,7 +4,10 @@ from services.proxy_handler import ProxyHandler
 if __name__ == "__main__":
     # Proxy Rules for different networks
     proxy_rules: list = [
-        ProxyRule("TP-LINK_POCKET_3020_8D8E88", "http://172.16.199.40:8080", "http"),
+        ProxyRule("LAPTOP-QDSK2ADK 8782", "http://172.16.199.40:8080", "http"),
+        ProxyRule("NITS", "http://172.16.199.20:8080", "http"),
+        ProxyRule("t_rog", "http://172.16.199.20:8080", "http"),
+        ProxyRule("MyNetwork","")
     ]
 
     # Initialize data
